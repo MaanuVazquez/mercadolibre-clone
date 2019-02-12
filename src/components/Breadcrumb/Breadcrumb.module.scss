@@ -1,0 +1,17 @@
+@import '../../shared/styles/colors.scss';
+
+.breadcrumb {
+  margin: 0 100px;
+  max-width: 100%;
+
+  .item {
+    font-size: 14px;
+    display: inline;
+    color: $tertiaryText;
+    text-decoration: none;
+  }
+}
+
+.lastItem {
+  font-weight: bold;
+}

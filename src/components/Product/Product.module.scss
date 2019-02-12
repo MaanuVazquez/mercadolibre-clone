@@ -1,0 +1,64 @@
+@import '../../shared/styles/colors.scss';
+
+.container {
+  max-width: 100%;
+  margin: 16px 100px 0 100px;
+  background-color: white;
+  padding: 32px;
+  border-radius: 5px;
+}
+
+.productDetails {
+  display: flex;
+
+  .picture {
+    height: 680px;
+    width: 680px;
+    align-items: center;
+  }
+
+  .firstParagraph {
+    color: $secondaryText;
+    font-size: 14px;
+  }
+
+  .secondParagraph {
+    margin-top: 16px;
+    color: $primaryText;
+    font-size: 24px;
+  }
+
+  .thirdParagraph {
+    margin: 32px 0;
+    color: $primaryText;
+    font-size: 46px;
+  }
+
+  div {
+    margin-left: 16px;
+  }
+
+  button {
+    outline: 0;
+    border: 1px solid $secondaryColor;
+    border-radius: 3px;
+    font-size: 18px;
+    line-height: 40px;
+    padding: 0 100px;
+    color: white;
+    background-color: $secondaryColor;
+    cursor: pointer;
+  }
+}
+
+.descriptionTitle {
+  margin-top: 32px;
+  font-size: 28px;
+  color: $secondaryText;
+}
+
+.description {
+  margin: 32px 0;
+  font-size: 16px;
+  color: $tertiaryText;
+}
